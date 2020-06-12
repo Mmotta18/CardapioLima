@@ -1,0 +1,261 @@
+@charset "UTF-8";
+
+ul#album-fotos {
+	width: 700px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+}
+
+ul#album-fotos li {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 5px solid white;
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	-webkit-transition: all .4s ease-in;
+}
+
+ul#album-fotos li span {
+	opacity: 0;
+	color: #FFFFFF; 
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.3);
+	font-size: 9pt;
+	line-height: 370px;
+	padding: 5px;
+}
+
+ul#album-fotos li:hover {
+	-webkit-transform: scale(1.5);
+}
+
+ul#album-fotos li:hover span {
+	opacity: 1;
+}
+
+ul#album-fotos li#foto01 {
+	background: url(./img/coca.jpg);
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #FFFFFF;
+}
+
+ul#album-fotos li#foto01:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto02 {
+	background: url(./img/fantauva.jpg);
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #FFFFFF;
+}
+
+ul#album-fotos li#foto02:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto03 {
+	background: url(./img/laranja.jpg);
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #FFFFFF;
+}
+
+ul#album-fotos li#foto03:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto04 {
+	background: url(./img/sprite.jpg);
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #FFFFFF;
+}
+
+ul#album-fotos li#foto04:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto05 {
+	background: url(./img/agua.jpg);
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #FFFFFF;
+}
+
+ul#album-fotos li#foto05:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto06 {
+	background: url(./img/matte.jpg);
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #FFFFFF;
+}
+
+ul#album-fotos li#foto06:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+header {
+	background: #660000;
+	padding: 20px 0;
+}
+
+body {
+	background: #F4F4F4;
+}
+
+
+a:hover {
+	text-decoration: underline;
+}
+
+.menu {
+	position: absolute;
+	top: 100px;
+	left: 95px;
+}
+
+nav a {
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+button a {
+	text-decoration: none;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 0 0 200px;
+	
+
+}
+
+.menu li {
+	list-style: none;
+
+}
+
+
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+	margin: 5px;
+	color: #660000;
+}
+
+.bebidas {
+	color: #005C45
+}
+
+figcaption p {
+	font-size: 18px;
+	font-weight: bold;
+	
+}
+
+
+.contato {
+	width: 50%;
+	border: 2px solid white;
+	border-radius: 5px;
+	height: 70%;
+}
+
+footer {
+	background:#660000;
+    height: 350px;
+
+}
+
+.insta, .email, .github, .whatsapp {
+	width: 5%;
+}
+
+.insta:hover {
+	opacity: 0.4;
+}
+
+.email:hover {
+	opacity: 0.4;
+}
+
+.github:hover {
+	opacity: 0.4;
+}
+
+.whatsapp:hover {
+	opacity: 0.4;
+}
+
+.redes-sociais li {
+	display: inline;
+	margin: 0 0 0 95px;
+	margin-right: 5px;
+}
+
+.redes-sociais {
+	position: absolute;
+	left: 680px;
+}
+
+button {
+	border: 2px solid black;
+	border-radius: 5px;
+	font-size: 20px;
+	position: relative;
+	bottom: 150px;
+	left: 850px;
+	padding: 10px;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 2px;
+	color: #660000;
+}
+
+.local {
+	position: relative;
+	left: 780px;
+	top: 85px;
+	color: #FFFFFF;
+
+}
+
+.local:hover {
+	opacity: 0.4;
+}
+
+.container {
+	position: relative;
+	left: 750px;
+	bottom: 170px;
+	color: #FFFFFF;
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+.logo {
+	width: 15%;
+	border: 2px solid black;
+	border-radius: 5px;
+
+}
+
+iframe {
+	margin-left: 25%;
+}
